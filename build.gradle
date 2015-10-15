@@ -47,3 +47,8 @@ android {
 dependencies {
     compile('com.android.support.test:runner:0.3')
 }
+
+afterEvaluate { project ->
+    // Weirdly archives are signed even if signing.required {false}, so also skipping task explicitly.
+    signArchives.onlyIf {!VERSION_NAME.endsWith("SNAPSHOT")}
+}

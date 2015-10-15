@@ -1,0 +1,12 @@
+# Build artifacts #
+build
+
+# Gradle caches #
+.gradle/
+
+# IntelliJ IDEA #
+.idea/*
+local.properties
+
+# Mac OS X #
+.DS_Store

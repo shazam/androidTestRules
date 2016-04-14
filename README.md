@@ -30,6 +30,13 @@ repositories {
     }
 }
 ```
+
+Then in a test class where you wish to ignore certain tests, declare the following rule:
+```java
+@Rule
+public ConditionalIgnoreRule conditionalIgnoreRule = new ConditionalIgnoreRule();
+```
+
 ## How to contribute
 
 Different conditions could be useful for various cases and users. To add a new condition, you can implement the `Condition` interface:

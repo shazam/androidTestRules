@@ -10,8 +10,6 @@
 
 package com.shazam.android.test.rules;
 
-import com.shazam.android.test.conditions.Condition;
-
 public class ExampleConditions {
 
     public static class AnyConfiguration implements Condition {

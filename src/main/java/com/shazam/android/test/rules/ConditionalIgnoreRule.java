@@ -10,7 +10,6 @@
 
 package com.shazam.android.test.rules;
 
-import com.shazam.android.test.conditions.Condition;
 import com.shazam.android.test.statement.NoOpStatement;
 
 import org.junit.rules.TestRule;

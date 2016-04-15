@@ -10,8 +10,6 @@
 
 package com.shazam.android.test.rules;
 
-import com.shazam.android.test.conditions.Condition;
-
 import java.lang.annotation.*;
 
 /**

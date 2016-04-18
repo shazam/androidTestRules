@@ -1,8 +1,6 @@
-package com.shazam.android.test.rules;
+package com.shazam.android.test.conditions;
 
 import android.content.pm.PackageManager;
-
-import static com.shazam.android.test.rules.Modules.packageManager;
 
 public class GooglePlayServices {
 
@@ -26,7 +24,7 @@ public class GooglePlayServices {
 
     private static boolean containsPackage(String packageName) {
         try {
-            packageManager().getApplicationInfo(packageName, 0);
+            Modules.packageManager().getApplicationInfo(packageName, 0);
             return true;
         } catch (PackageManager.NameNotFoundException e) {
             return false;

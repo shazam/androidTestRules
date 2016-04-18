@@ -1,4 +1,4 @@
-package com.shazam.android.test.rules;
+package com.shazam.android.test.conditions;
 
 import android.content.Context;
 import android.content.pm.PackageManager;

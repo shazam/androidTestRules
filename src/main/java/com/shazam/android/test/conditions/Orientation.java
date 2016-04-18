@@ -1,8 +1,8 @@
-package com.shazam.android.test.rules;
+package com.shazam.android.test.conditions;
 
 import android.content.res.Configuration;
 
-import static com.shazam.android.test.rules.Modules.resources;
+import static com.shazam.android.test.conditions.Modules.resources;
 
 public class Orientation {
 

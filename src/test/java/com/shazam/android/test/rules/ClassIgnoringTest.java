@@ -10,7 +10,7 @@
 
 package com.shazam.android.test.rules;
 
-import com.shazam.android.test.rules.ExampleConditions.AnyConfiguration;
+import com.shazam.android.test.conditions.ExampleConditions.AnyConfiguration;
 
 import org.junit.*;
 

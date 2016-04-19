@@ -18,7 +18,7 @@ public void phoneCanMakeACall() {
 Simply add a dependency for the instrumentation tests' scope:
 ```groovy
 dependencies {
-    androidTestCompile('com.shazam:android-test-rules:1.0.0-SNAPSHOT')
+    androidTestCompile('com.shazam:android-test-rules:1.0.0')
 }
 ```
 

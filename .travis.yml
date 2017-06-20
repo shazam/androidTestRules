@@ -2,12 +2,11 @@ language: android
 
 android:
   components:
-    - tools
+    - tools # to get the new `repository-11.xml`
+    - tools # see https://github.com/travis-ci/travis-ci/issues/6040#issuecomment-219367943)
     - build-tools-23.0.3
     - android-23
     - extra-android-m2repository
-  licenses:
-    - android-sdk-license-5be876d5
 
 jdk:
   - oraclejdk8
